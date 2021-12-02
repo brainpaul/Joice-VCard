@@ -1,0 +1,62 @@
+.card {
+    background-color: maroon;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav, nav a {
+    text-transform: uppercase;
+    color: white;
+}
+
+nav a.active {
+    color:goldenrod;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+nav h5 {
+    font-weight: bold;
+}
+
+.main {
+    color: white;
+}
+
+.main h1 {
+    font-weight: 100;
+}
+
+.main h1 span {
+    font-weight: 400;
+    color: gold;
+}
+
+.main p {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.main button {
+    background-color:goldenrod;
+    color: white;
+    margin-top: 30px;
+}
+
+.bg-img {
+    position: absolute;
+    bottom: -40px;
+    right: -40px;
+    width: 50%;
+}
+
+.card-body {
+    position: relative;
+    overflow: hidden;
+}
